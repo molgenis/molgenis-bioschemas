@@ -1,6 +1,9 @@
 #!/usr/bin/perl -w
 
-# gets GeoJSON from the BBMRI-ERIC Directory LDIF
+# gets GeoJSON from the BBMRI-ERIC Directory REST API
+#
+# Usage:
+# ./get-bioschemas.pl biobank_ID_or_collection_ID
 
 use strict;
 use utf8;
